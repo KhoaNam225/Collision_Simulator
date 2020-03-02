@@ -45,3 +45,15 @@ After compiling the code, all you need to do is to run the generated Simulator c
 ```
 
 You will need to give the program 2 arguments. The __first argument__ will be __the number of particles__ involving in the simulation, depends on your hardward resource this could vary from __10 to 50 (or above)__. The __second argument__ will be __the time limit__ for the simulation, after this period of time is exceeded, the simulation will stop.
+
+__3. Screenshot__
+
+This is how the simulation will look like:
+
+<div style="text-align:center">
+    <img src="./logo.gif" alt="logo" width="400"/>
+</div>
+
+## License
+
+MIT &copy; KhoaNam225
