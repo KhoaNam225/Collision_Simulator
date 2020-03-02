@@ -104,7 +104,7 @@ public class Simulator {
             particles[i].draw();
 
         Draw.show();
-        Draw.pause(25);
+        Draw.pause(40);
         
         if (time + 1 / HZ < limit)
             pq.insert(new Event(null, null, time + 1 / HZ));
@@ -168,6 +168,7 @@ public class Simulator {
             double limit = Double.parseDouble(args[1]);
             
             Draw.enableDoubleBuffering();
+            Draw.setLabel("Particles Simulator");
             
             Simulator simulator = new Simulator(pNum);
             simulator.simulate(limit);
